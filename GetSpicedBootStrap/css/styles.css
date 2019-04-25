@@ -1,14 +1,16 @@
 #title {
   background-color: #ffa45c;
   color: #fff;
+
 }
 .container-fluid{
-   padding: 0% 3%;
+   padding: 3% 7% 7%;
 }
 h1 {
   font-family: : "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
+
 }
 h2{
   font-family: 'Montserrat';
@@ -54,13 +56,18 @@ body {
   width: 60%;
   height: 95%;
   transform: rotate(25deg);
+  position: relative;
+
 }
 
 /* Features */
 #features{
   color: #ffa45c;
   text-align: center;
-  padding: 4.5rem 0 0;
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
 }
 
 
@@ -105,4 +112,14 @@ body {
 
 #pricing-column{
   padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
